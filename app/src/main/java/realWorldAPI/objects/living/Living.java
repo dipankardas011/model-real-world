@@ -1,6 +1,7 @@
 package realWorldAPI.objects.living;
 
-public class Living {
+import realWorldAPI.objects.Object;
+
+public class Living extends Object {
     public int age;         // Age in years
-    public int lifespan;    // Lifespan in years
 }
